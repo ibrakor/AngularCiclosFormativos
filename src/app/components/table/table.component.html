@@ -1,0 +1,13 @@
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th *ngFor="let cabecera of cabeceras">{{cabecera}}</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let dato of datos">
+    <td *ngFor="let celda of cabeceras">{{dato[celda]}}</td>
+  </tr>
+  </tbody>
+
+</table>

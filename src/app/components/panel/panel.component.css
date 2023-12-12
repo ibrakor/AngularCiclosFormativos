@@ -1,0 +1,9 @@
+.linea {
+  display: flex;
+  margin-bottom: 10px; /* Ajusta según sea necesario */
+}
+
+.app-recuadro {
+  flex: 1;
+  margin-right: 10px; /* Ajusta según sea necesario */
+}
