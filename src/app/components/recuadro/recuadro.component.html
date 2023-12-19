@@ -1,5 +1,5 @@
 <div>
   {{titulorecuadro}}
   <app-table [datos]="datosRec" [cabeceras]="cabecerasRec"></app-table>
-  <button class="btn btn-primary">{{textoboton}}</button>
+  <button class="btn btn-primary" (click)="alerta()">{{ textoboton }}</button>
 </div>
